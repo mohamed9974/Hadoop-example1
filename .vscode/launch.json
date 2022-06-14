@@ -1,0 +1,114 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": [
+                "${file}",
+                "songs_normalize.csv",
+                "output/${file}"
+            ],
+        },
+        {
+            "type": "java",
+            "name": "Launch Hw3/total",
+            "request": "launch",
+            "mainClass": "Hw3",
+            "projectName": "Hadoop-example",
+            "args": [
+                "total",
+                "input/songs_normalize.csv",
+                "output/total"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch Hw3/average",
+            "request": "launch",
+            "mainClass": "Hw3",
+            "projectName": "Hadoop-example",
+            "args": [
+                "average",
+                "input/songs_normalize.csv",
+                "output/average"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch Hw3/popular",
+            "request": "launch",
+            "mainClass": "Hw3",
+            "projectName": "Hadoop-example",
+            "args": [
+                "popular",
+                "input/songs_normalize.csv",
+                "output/popular"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch Hw3/explicitlypopular",
+            "request": "launch",
+            "mainClass": "Hw3",
+            "projectName": "Hadoop-example",
+            "args": [
+                "explicitlypopular",
+                "input/songs_normalize.csv",
+                "output/explicitlypopular"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch Hw3/dancebyyear",
+            "request": "launch",
+            "mainClass": "Hw3",
+            "projectName": "Hadoop-example",
+            "args": [
+                "dancebyyear",
+                "input/songs_normalize.csv",
+                "output/dancebyyear"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch average",
+            "request": "launch",
+            "mainClass": "average",
+            "projectName": "Hadoop-example"
+        },
+        {
+            "type": "java",
+            "name": "Launch dancebyyear",
+            "request": "launch",
+            "mainClass": "dancebyyear",
+            "projectName": "Hadoop-example"
+        },
+        {
+            "type": "java",
+            "name": "Launch explicitlypopular",
+            "request": "launch",
+            "mainClass": "explicitlypopular",
+            "projectName": "Hadoop-example"
+        },
+        {
+            "type": "java",
+            "name": "Launch popular",
+            "request": "launch",
+            "mainClass": "popular",
+            "projectName": "Hadoop-example"
+        },
+        {
+            "type": "java",
+            "name": "Launch total",
+            "request": "launch",
+            "mainClass": "total",
+            "projectName": "Hadoop-example"
+        }
+    ]
+}
